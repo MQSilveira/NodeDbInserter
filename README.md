@@ -58,26 +58,3 @@ Inserção de CEPs:  *A API permite a inserção de dados de CEPs no banco de da
       "siafi": "7107"
     }
    ```
-
-# Enviando Requisições para a API
-*A API de Inserção de CEPs permite que você insira dados de CEPs no banco de dados. Para enviar requisições, você pode usar ferramentas como Postman ou até mesmo fazer chamadas diretas usando JavaScript em sua aplicação ReactJS.*
-
-* Exemplo de Requisição (Postman)<br>
-  1- Abra o Postman e crie uma nova requisição.<br>
-  2- Defina o método como POST.<br>
-  3- Insira a URL da API: http://localhost:3000/api/address.<br>
-  4- No corpo da requisição, forneça os dados do CEP no formato JSON. Por exemplo:<br>
-  ```
-  {
-    "cep": "12345-678",
-    "logradouro": "Rua Exemplo",
-    "bairro": "Bairro Teste",
-    "cidade": "Cidade Teste",
-    "estado": "TS"
-  }
-  ```
-
-
-
-
-
